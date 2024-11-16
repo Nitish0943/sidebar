@@ -1,0 +1,109 @@
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  .sidebar1{
+    background-color: #8ec9fa;
+    padding: 8px;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+.sidebar2{
+    background-color: #8ec9fa;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+  .live-events {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .live-events .count {
+    background-color: #3cc57c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  Add individual sport icons
+  .icon.tennis {
+    background-image: url('C:\Users\Nitish pathak\Desktop\my-app\my-app\src\assets\icons\tennis-ball.svg');
+  }
+  
+  .icon.soccer {
+    background-image: url('C:\Users\Nitish pathak\Desktop\my-app\my-app\src\assets\icons\soccer-field.svg');
+  }
+  
+  /* .icon.american-football {
+    background-image: url('/path-to-icons/american-football-icon.png');
+  } */
+  
+  .icon.basketball {
+    background-image: url('C:\Users\Nitish pathak\Desktop\my-app\my-app\src\assets\icons\basket-ball.svg');
+  }
+  
+  .icon.cricket {
+    background-image: url('C:\Users\Nitish pathak\Desktop\my-app\my-app\src\assets\icons\cricket-svgrepo-com.svg');
+  }
+  
+  .icon.ice-hockey {
+    background-image: url('C:\Users\Nitish pathak\Desktop\my-app\my-app\src\assets\icons\ice-hockey.svg');
+  }
+  
+  /* .icon.racing {
+    background-image: url('/path-to-icons/racing-icon.png');
+  } */
+  
+  .icon.mma {
+    background-image: url('C:\Users\Nitish pathak\Desktop\my-app\my-app\src\assets\icons\MMA.svg');
+  }
+  
+  /* .icon.cs2 {
+    background-image: url('/path-to-icons/cs2-icon.png');
+  } */
+  
